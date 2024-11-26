@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "57181686346",
+    "project_id": "mr-coffee-84744",
+    "storage_bucket": "mr-coffee-84744.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:57181686346:android:037a36f79eec5f17a274b3",
+        "android_client_info": {
+          "package_name": "com.example.mr_coffee"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVlPfVXzdGgUL44kMbUVOC-1K1jCDsrUQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
