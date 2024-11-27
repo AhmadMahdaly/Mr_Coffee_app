@@ -20,6 +20,7 @@ dependencies:
   flutter_dotenv: ^5.2.1
   flutter_screenutil: ^5.9.3
   flutter_launcher_icons: ^0.14.1
+  flutter_native_splash: ^2.4.3
 
 dev_dependencies:
   flutter_test:
@@ -35,6 +36,7 @@ flutter:
   assets:
     - .env.dev
     - .env.prod
+    - assets/images/logo.png
 
   # fonts:
   #   - family: Schyler
@@ -48,3 +50,9 @@ flutter:
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
 
+flutter_native_splash:
+  color: "#F9F7F6"
+  image: assets/images/logo.png
+  android_12:
+    color: "#F9F7F6"
+    image: assets/images/logo.png
