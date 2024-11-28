@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:mr_coffee/core/app/env_variables.dart';
+import 'package:mr_coffee/home_page/home_page.dart';
+import 'package:mr_coffee/widgets/constans.dart';
 
 class MrCoffeeApp extends StatefulWidget {
   const MrCoffeeApp({super.key});
@@ -32,18 +34,11 @@ class _MrCoffeeAppState extends State<MrCoffeeApp> {
     return MaterialApp(
       debugShowCheckedModeBanner: EnvVariables.instance.debugMode,
       title: 'MR COFFEE',
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text(
-            'MR COFFEE',
-            style: TextStyle(
-              fontSize: 15,
-              fontWeight: FontWeight.bold,
-            ),
-          ),
-          centerTitle: true,
-        ),
+      color: KMainColor,
+      locale: const Locale(
+        'ar',
       ),
+      home: const HomePage(),
     );
   }
 }
