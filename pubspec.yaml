@@ -23,6 +23,8 @@ dependencies:
   flutter_native_splash: ^2.4.3
   cached_network_image: ^3.4.1
   flutter_spinkit: ^5.2.1
+  crystal_navigation_bar: ^1.0.2
+  iconly: ^1.0.1
 
 dev_dependencies:
   flutter_test:

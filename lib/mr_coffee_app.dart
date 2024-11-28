@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:mr_coffee/core/app/env_variables.dart';
-import 'package:mr_coffee/home_page/home_page.dart';
+import 'package:mr_coffee/home_page/botton_nav_bar.dart';
 import 'package:mr_coffee/widgets/constans.dart';
 
 class MrCoffeeApp extends StatefulWidget {
@@ -38,7 +38,7 @@ class _MrCoffeeAppState extends State<MrCoffeeApp> {
       locale: const Locale(
         'ar',
       ),
-      home: const HomePage(),
+      home: const NavBar(),
     );
   }
 }

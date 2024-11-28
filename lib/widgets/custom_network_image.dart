@@ -19,7 +19,7 @@ class CustomNetworkImage extends StatelessWidget {
       fit: BoxFit.cover,
       placeholder: (context, url) {
         return const Center(
-          child: SpinKitPulse(
+          child: SpinKitWaveSpinner(
             color: KMainColor,
           ),
         );
