@@ -10,9 +10,13 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: KMainColor,
+      backgroundColor: KMainColor.withOpacity(
+        0.6,
+      ),
       appBar: AppBar(
-        backgroundColor: KTextColor,
+        backgroundColor: KTextColor.withOpacity(
+          0.8,
+        ),
         title: const Text(
           'مستر كوفي',
           style: TextStyle(
@@ -108,7 +112,7 @@ class HomePage extends StatelessWidget {
                     ),
                     child: const CustomNetworkImage(
                       image:
-                          'https://images.unsplash.com/photo-1524045570440-e451d9d8183b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                          'https://images.unsplash.com/photo-1506619216599-9d16d0903dfd?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
                     ),
                   ),
                   const Positioned(
@@ -148,7 +152,7 @@ class HomePage extends StatelessWidget {
               itemBuilder: (context, index) {
                 return const Item();
               },
-              itemCount: 20,
+              itemCount: 9,
             ),
           ],
         ),
